@@ -43,8 +43,8 @@
   prerequisites:
     Перейти на страницу веб-приложения "CodeBattle" по ссылке https://codebattle.hexlet.io/session/new?locale=en&next=%2F
   test-data: 
-    "Email" = "Aleksey_2@mail.ru"
-    "Password" =  Aleksey_1
+    Email = Aleksey_1@mail.ru
+    Password = Aleksey_1
   steps:
     - Вводим "Email"
     - Вводим "Password"
@@ -60,8 +60,8 @@
   prerequisites:
     Перейти на страницу веб-приложения "CodeBattle" по ссылке https://codebattle.hexlet.io/session/new?locale=en&next=%2F
   test-data: 
-    "Email" = Aleksey_1@mail.ru
-    "Password" = Aleksey_2
+    Email = Aleksey_1@mail.ru
+    Password = Aleksey_1
   steps:
     - Вводим "Email"
     - Вводим неверный "Password"
@@ -92,8 +92,8 @@
     Перейти на страницу веб-приложения "CodeBattle" по ссылке https://codebattle.hexlet.io/remind_password
     Доступ к почте Aleksey_1@mail.ru
   test-data: 
-    "Email" = Aleksey_1@mail.ru
-    "Password"(new) = Aleksey_2
+    Email = Aleksey_1@mail.ru
+    Password = Aleksey_2
   steps:
     - Нажимаем на надпись "Forgot your password?" под полем ввода password
     - Вводим "Email"
@@ -147,9 +147,9 @@
   prerequisites:
     Перейти на страницу веб-приложения "CodeBattle" по ссылке https://codebattle.hexlet.io/users/new?locale=en&next=%2F
   test-data: 
-    "Nickname" = Aleksey
-    "Email" = Aleksey_1@mail.ru
-    "Password" = Aleks
+    Email = Aleksey_1@mail.ru
+    Password = Aleksey_1
+    Password" = Aleks
   steps:
     - Вводим "Nickname"
     - Вводим "Email"
@@ -165,9 +165,9 @@
   prerequisites:
     Перейти на страницу веб-приложения "CodeBattle" по ссылке https://codebattle.hexlet.io/users/new?locale=en&next=%2F
   test-data: 
-    "Nickname" = Aleksey
-    "Email" = Aleksey_1
-    "Password" = Aleksey_2
+    Nickname = Aleksey
+    Email = Aleksey_1
+    Password = Aleksey_2
   steps:
     - Вводим "Nickname"
     - Вводим некорректный "Email"
@@ -183,9 +183,9 @@
   prerequisites:
     Перейти на страницу веб-приложения "CodeBattle" по ссылке https://codebattle.hexlet.io/users/new?locale=en&next=%2F
   test-data: 
-    "Nickname" = Al
-    "Email" = Aleksey_1@mail.ru
-    "Password" = Aleksey_2
+    Nickname = Al
+    Email = Aleksey_1@mail.ru
+    Password = Aleksey_2
   steps:
     - Вводим "Nickname"
     - Вводим "Email"
@@ -729,7 +729,7 @@
     Авторизоваться в приложении "CodeBattle"
     Создать задание с "Name" = "1"
   test-data: 
-     Email = Aleksey_1@mail.ru
+    Email = Aleksey_1@mail.ru
     Password = Aleksey_1
     "Name" = "1"
     "Level" = "easy"
@@ -827,7 +827,7 @@
     Создать сборник заданий с "Name" = "1"
     Создать сборник заданий с "Name" = "test"
   test-data: 
-   Email = Aleksey_1@mail.ru
+    Email = Aleksey_1@mail.ru
     Password = Aleksey_1
     "Name" = "1"
     "Visibility" = "public"
@@ -915,7 +915,7 @@
     Перейти на страницу веб-приложения "CodeBattle" по ссылке (https://codebattle.hexlet.io/).
     Авторизоваться в приложении "CodeBattle"
   test-data: 
-   Email = Aleksey_1@mail.ru
+    Email = Aleksey_1@mail.ru
     Password = Aleksey_1
     Название турнира = "секретный турнир"
     "Select" "Access Type" = "token"
