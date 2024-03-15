@@ -26,8 +26,8 @@
   prerequisites: 
     Перейти на страницу веб-приложения "CodeBattle" https://codebattle.hexlet.io/session/new?locale=en&next=%2F
   test-data: 
-    "Email" = Aleksey_1@mail.ru
-    "Password" = Aleksey_1
+    Email = Aleksey_1@mail.ru
+    Password = Aleksey_1
   steps:
     - Нажимаем кнопку "Sign in"
     - Вводим "Email"
