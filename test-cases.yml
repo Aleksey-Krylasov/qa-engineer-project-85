@@ -36,7 +36,6 @@
   expected-result: 
     Отображена главная страница "CodeBattle" (https://codebattle.hexlet.io/#lobby)
   
-
 - summary: 
     При авторизация пользователя с незарегистрированным "email" сайт сообщает об ошибке
   requirement: 
@@ -44,7 +43,7 @@
   prerequisites:
     Перейти на страницу веб-приложения "CodeBattle" по ссылке https://codebattle.hexlet.io/session/new?locale=en&next=%2F
   test-data: 
-    "Email" = Aleksey_2@mail.ru
+    "Email" = "Aleksey_2@mail.ru"
     "Password" =  Aleksey_1
   steps:
     - Вводим "Email"
