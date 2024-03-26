@@ -205,7 +205,7 @@
     Email = Aleksey_1@mail.ru
     Password = Aleksey_1
   steps:
-    Перейти в настройки - https://codebattle.hexlet.io/settings
+    Перейти в настройки - "https://codebattle.hexlet.io/settings"
     Выбрать любой звук в "Select sound type"
     Изменить уровень громкости в "Select sound level"
     Нажать сохранить
