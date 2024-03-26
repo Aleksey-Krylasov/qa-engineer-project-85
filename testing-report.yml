@@ -21,7 +21,7 @@
     
 - summary: 
     Успешное восстановление забытого "password"
-  status: fail
+  status: pass
     
 - summary: 
     Успешная авторизация пользователя по Discord
