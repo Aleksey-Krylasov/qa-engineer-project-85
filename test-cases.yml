@@ -195,6 +195,25 @@
     Отображена ошибка "Nickname should be at least 3 characters"
     
 - summary: 
+    Успешное Сохранение  звуковых настроек
+  requirement: 
+    Пользователь может изменять звуковые настройки и сохранять их
+  prerequisites:
+    Перейти на страницу веб-приложения "CodeBattle" по ссылке (https://codebattle.hexlet.io/).
+    Авторизоваться в приложении "CodeBattle"
+  test-data: 
+    Email = Aleksey_1@mail.ru
+    Password = Aleksey_1
+  steps:
+    Перейти в настройки - https://codebattle.hexlet.io/settings
+    Выбрать любой звук в "Select sound type"
+    Изменить уровень громкости в "Select sound level"
+    Нажать сохранить
+    Перезагрузить страницу
+  expected-result: 
+    Сохранение настроек звука на измененые параметры    
+    
+- summary: 
     Незарегистрированного пользователь может поиграть с ботом
   requirement: 
     Незарегистрированный пользователь может просматривать "Guide" в игре с ботом
